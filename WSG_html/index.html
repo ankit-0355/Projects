@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Headig tag-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!--Paragraph-->
+    <p>this ia asbdkj</p>
+    <p>this ia asbdkdsdcsdj</p>
+
+    <!-- Horizontl-->
+    <hr>
+
+    <img src='' alt='hghm'>
+    
+    <!--Ordered list-->
+    <ol>
+    <li type="1">Apple</li>
+    <li type="I">Apple 2</li>
+    <li type="i">Apple 3</li>
+    <li type="a">Apple 4</li>
+    <li type="A">Apple 5</li>
+    </ol>
+
+    <!--Unordered list-->
+    <ul>
+        <li type="Circle">List 1</li>
+        <li type="Square">List 2</li>
+        <li type="None">List 3</li>
+        <li typw="disc">List 4</li>
+    </ul>
+
+    <!--Description list-->
+    <dl>
+        <dt>Wipro</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione 
+            libero consequuntur
+        </dd>
+        <dt>Google</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Odio, possimus. Facere expedita adipisci, ut laudantium
+        </dd>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Odio, possimus. Facere expedita adipisci, ut laudantium
+        </dd>
+    </dl>
+
+    <!--Anchor tag-->
+    <a href="www.google.com" target="_blank">Google</a> <br>
+    <a href="mailto: prajapatiankits810@gmail.com">Send Email</a>
+    <a href="tel: +918905102211">call me</a>
+    <a href="javascript: alert('You Clicked')">click me</a>
+    <a href="https://asia.omsystem.com/content/000107506.jpg" download>Download Image</a>
+
+    <table border>
+        <caption>Table caption</caption>
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Jack</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>jill</td>
+            <td>40</td>
+        </tr>
+    </table>
+<hr>
+<br>
+<hr>
+    <table border>
+        <caption>Student Information</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkat</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <!--Text formatting-->
+    <p>This is a normal paragraph</p>
+    <p><strong>Bold</strong></p>
+    <p><em>this is italic</em></p>
+    <p><u>underline</u></p>
+    <p><strike>strikethrough</strike></p>
+    <p>This is <sub>sunscript</sub></p>
+    <p>This is<sup>superscript</sup></p>
+
+    <!--Block elements-->
+    <p style="border: 1px solid black;">This is para 1</p>
+    <p style="border: 1px solid black;">This is para 2</p>
+    <div style="border: 1px solid black;">This is div</div>
+
+    <!--inline element-->
+    <p>this is a <span style="border: 1px solid black;">i am a span</span> paragraph</p>
+
+    <!--Forms-->
+    <form action="Server" method="get">
+        <!--Text box-->
+        <label for="name">Username</label>
+        <input type="text" name="name" id="id">
+        <br>
+        <br>
+        <br>
+        <label for="Passwprd">password</label>
+        <input type="password" name="Passwprd">
+        <br>
+        <br>
+        <!--Text Area-->
+        <label for="Description"></label>
+        <textarea name="Description"id="Id1" cols="30" rows="10"></textarea>
+        <br>
+        <!-- Radio Button -->
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" Name="Gender">
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" Name="Gender">
+
+        <!-- Submit Button -->
+        <input type="submit" id="'sub" name="submit" value="Login">
+
+        <!-- Reset Button -->
+        <input type="reset" id="rst" name="reset" value="Reset Login">
+
+        <!-- Generic Button -->
+        <button type="button" onclick="alert('Clicked')">Click me</button>
+
+        <br>
+
+        <!-- File field -->
+        <input type="file" name="Myfile" multiple>
+        <input directory="" webkitdirectory="" type="file" multiple/>
+
+        <!-- color picker -->
+        <input type="color" name="mycolor">
+        <br>
+        <!--Date-->
+        <input type="datetime-local" name="myDateTime">
+        <input type="date" name="myDate">
+        <input type="month" name="mymonth">
+        <input type="week" name="myweek" min="2023-W16" max="2023-W24">
+
+
+        <br>
+        <br>
+        <!-- Email -->
+        <input type="email" name="email">
+        <br>
+
+        <!-- Number -->
+        <label for="age">Age</label>
+        <input type="number" name="age" min="5" max="100" step="10">
+
+        <!-- Range slider -->
+        <input type="range" name="rangeslider">
+
+        <!-- Search box -->
+        <input type="search" name="Searchbox">
+        <br>
+        <!-- telehone -->
+        <label for="Telephone">Telephone</label>
+        <input type="tel" name="Telephone" pattern="{0-9}{3}-{0-9}{4}-{0-9}{4}">
+
+        <!-- Drop down -->
+        <select name="car" id="cars">
+            <option value="0">Select a car</option>
+            <option value="1">Tata</option>
+            <option value="2">Honda</option>
+            <option value="3">maruti</option>
+            <option value="4">BMW</option>
+        </select>
+        <!-- Multiple select in drop down -->
+        <select multiple name="skill" id="skills">
+            <option value="0">Select a skill</option>
+            <option value="1">JS</option>
+            <option value="2">HTML</option>
+            <option value="3">CSS</option>
+            <option value="4">Java</option>
+        </select>
+    </form>
+
+    <!--Progress meter-->
+    <progress value="25" max="100">25%</progress>
+
+
+</body>
+</html>
